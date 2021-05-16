@@ -54,14 +54,16 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="326,224" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="376,323" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:SetAsset TimeoutMS="{x:Null}" AssetName="ACME_URL" DisplayName="Set Asset" sap:VirtualizedContainerService.HintSize="284,132" sap2010:WorkflowViewState.IdRef="SetAsset_1" Value="[&quot;https://www.gmail.com&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Re added message box&quot;]" />
+    <ui:SetAsset TimeoutMS="{x:Null}" AssetName="ACME_URL" DisplayName="Set Asset" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="SetAsset_1" Value="[&quot;https://www.gmail.com&quot;]" />
   </Sequence>
 </Activity>
